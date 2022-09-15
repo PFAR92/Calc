@@ -1,7 +1,7 @@
 //essa classe analiza todos os inputs do usuario e permite adicionar novos inputs sem alterar o método principal
 
 public class verificaInputs {
-
+    //esse método veirfica se é um número positivo ou negativo
     public static Boolean numero(String numero){
     
         try {
