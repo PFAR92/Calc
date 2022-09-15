@@ -15,6 +15,7 @@ public class App {
                
                 if (verificaInputs.numero(valor1) == true){
                     break;
+                    return;
                 }
             }
     
