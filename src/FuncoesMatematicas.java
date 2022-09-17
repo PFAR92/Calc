@@ -1,5 +1,5 @@
 //essa classe tem todas as fuções matemáticas escolhidas pelo usuário cada método com uma função específica
-public class Funcoes {
+public class FuncoesMatematicas {
     public static Float soma(String n1, String n2){
 
         float x = Float.parseFloat(n1);

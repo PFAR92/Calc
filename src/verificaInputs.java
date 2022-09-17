@@ -17,19 +17,19 @@ public class VerificaInputs {
 
         switch(escolha){
             case "s":
-            Float totalS = Funcoes.soma(x, y);
+            Float totalS = FuncoesMatematicas.soma(x, y);
             return totalS;
 
             case "t":
-            Float totalT = Funcoes.subtracao(x, y);
+            Float totalT = FuncoesMatematicas.subtracao(x, y);
             return totalT;
 
             case "m":
-            Float totalM = Funcoes.multiplicacao(x, y);
+            Float totalM = FuncoesMatematicas.multiplicacao(x, y);
             return totalM;
 
             case "d":
-            Float totalD = Funcoes.divisao(x, y);
+            Float totalD = FuncoesMatematicas.divisao(x, y);
             return totalD;
 
             default:
