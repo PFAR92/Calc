@@ -13,7 +13,7 @@ public class App {
                 System.out.print("Digite 1° valor: ");
                 valor1 = teclado.nextLine();
                
-                if (verificaInputs.numero(valor1) == true){
+                if (VerificaInputs.numero(valor1) == true){
                     break;
                 }
             }
@@ -23,7 +23,7 @@ public class App {
                 System.out.print("Digite 2° valor: ");
                 valor2 = teclado.nextLine();
     
-                if (verificaInputs.numero(valor2) == true){
+                if (VerificaInputs.numero(valor2) == true){
                     break;
                 }
             }
@@ -33,7 +33,7 @@ public class App {
                 System.out.print("Qual a função desejada? [s]somar [t]subtrair [m]multiplicar [d]dividir [outra letra para sair]   ");
                 conta = teclado.nextLine();
 
-                Float total = verificaInputs.conta(conta, valor1, valor2);
+                Float total = VerificaInputs.conta(conta, valor1, valor2);
 
                 if(total != null){
                     System.out.println(total);
