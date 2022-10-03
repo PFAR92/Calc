@@ -20,6 +20,7 @@ public class App {
                 operacoes1.setNumero2(operacoes1.getNumeroVerificado());
                 break;
             }
+            
         }
         System.out.print("Escolha qual função executar: [S]SOMA [T]SUBTRACAO [M]MULTIPLICACAO [D]DIVISAO: ");
         String escolha = input.next();
